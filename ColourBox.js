@@ -13,7 +13,7 @@ class ColourBox{
         this.Visibility = 255;
       }
       display(){
-        if (this.body.speed < 6 ){
+        if (this.body.speed < 3 ){
           var pos = this.body.position;
           var angle = this.body.angle;
           push();
